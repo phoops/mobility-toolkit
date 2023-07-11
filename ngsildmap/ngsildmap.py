@@ -70,10 +70,10 @@ observedAt = (os.getenv("OBSERVED_AT", 'True') == 'True')
 defaultBasePath = os.getenv("BASE_PATH", "/")
 
 colorScales = getColorScales()
-initialBoundMinLat = 999999999999
-initialBoundMaxLat = -999999999999
-initialBoundMinLon = 999999999999
-initialBoundMaxLon = -999999999999
+initialBoundMinLat = 43.473576
+initialBoundMinLon = 11.862122
+initialBoundMaxLat = 43.450740
+initialBoundMaxLon = 11.896034
 
 
 chroma = "https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"  # js lib used for colors
